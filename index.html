@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Track S - GPS Praćenje Vozila</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #f5f8fa;
+    color: #333;
+  }
+  header {
+    background: #0077cc;
+    color: white;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  main {
+    max-width: 900px;
+    margin: 80px auto 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    color: #0077cc;
+    margin-top: 0;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #0077cc;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  form input, form textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    margin-top: 4px;
+  }
+  form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #005fa3;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Track S</h1>
+  <nav>
+    <a href="#home">Početna</a>
+    <a href="#about">O nama</a>
+    <a href="#services">Usluge</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+</header>
+<main>
+  <section id="home">
+    <h2>GPS praćenje vozila sa poverenjem</h2>
+    <p>Precizno, pouzdano i lako praćenje vašeg voznog parka u realnom vremenu.</p>
+  </section>
+
+  <section id="about">
+    <h2>O nama</h2>
+    <p><strong>Track S</strong> je firma specijalizovana za GPS praćenje vozila. Naša misija je da omogućimo potpun nadzor nad voznim parkom klijenata – u realnom vremenu, uz precizne informacije, automatizovane izveštaje i jednostavan web interfejs. Bilo da upravljate jednom ili stotinu vozila, nudimo rešenje koje vam štedi vreme i novac.</p>
+  </section>
+
+  <section id="services">
+    <h2>Naše usluge</h2>
+    <ul>
+      <li>GPS praćenje vozila u realnom vremenu</li>
+      <li>Evidencija ruta i stajanja</li>
+      <li>Alarmi za prekoračenje brzine, izlazak iz zone</li>
+      <li>Web aplikacija i mobilni pristup</li>
+      <li>Profesionalna ugradnja GPS uređaja</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <p><strong>Adresa:</strong> Sterijina 8</p>
+    <p><strong>Telefon:</strong> 060 3474744</p>
+    <p><strong>Email:</strong> <a href="mailto:slobas91@outlook.com">slobas91@outlook.com</a></p>
+
+    <form>
+      <label for="name">Ime:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Poruka:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Pošalji</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <p>© 2025 Track S. Sva prava zadržana.</p>
+</footer>
+</body>
+</html>
